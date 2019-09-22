@@ -1,8 +1,7 @@
-package com.github.jfarleyx.tutorial1;
+package kafka.tutorial1;
 
 import org.apache.kafka.clients.consumer.*;
 import org.apache.kafka.common.errors.WakeupException;
-import org.apache.kafka.common.metrics.stats.Count;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
